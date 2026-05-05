@@ -1,0 +1,13 @@
+# Ignorar variables de entorno
+.env
+# Ignorar las cuentas y dependencias
+Cuentas/
+node_modules/
+
+# Ignorar salidas
+main-linux
+main-macos
+main-win.exe
+
+#Ignorar modulos no completados
+Pruebas/
