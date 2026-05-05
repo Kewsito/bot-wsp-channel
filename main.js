@@ -1,15 +1,16 @@
 const { Client,LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 
+process.loadEnvFile();
+const regexOp= process.env.regexOp;
+const canalAdmin = process.env.canalAdmin;
 
-const regexOp= /\bOp(erativo)?\b/gi;
-const canalAdmin = '120363430202189129@newsletter';
 
-const operativo1 = '5492646626422-1573439574@g.us'
-const operativo2 = '5492645154002-1504281800@g.us'
-const operativo3 = '5492645758661-1619047499@g.us'
-const operativo4 = '120363155356920741@g.us'
-const operativo5 = '5492645526785-1463415811@g.us'
+const operativo1 = process.env.operativo1;
+const operativo2 = process.env.operativo2;
+const operativo3 = process.env.operativo3;
+const operativo4 = process.env.operativo4;
+const operativo5 = process.env.operativo5;
 
 
 // Este Set guardará los mensajes que ya enviamos al canal
