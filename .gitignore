@@ -1,0 +1,49 @@
+# Ignorar variables de entorno
+backend/.env
+backend/Notas.md
+# Ignorar las cuentas y dependencias
+backend/Cuentas/
+backend/node_modules/
+backend/Features/canalesWSP.js
+
+# Ignorar salidas
+backend/main-linux
+backend/main-macos
+backend/main-win.exe
+
+#Ignorar modulos no completados
+backend/Pruebas/
+backend/Features/campoPruebas.txt
+backend/armbian_env/*
+
+
+#Ignorar compilados
+backend/compiled/
+
+
+# build output
+frontend/astro/dist/
+# generated types
+frontend/astro/.astro/
+
+# dependencies
+frontend/astro/node_modules/
+
+# logs
+frontend/astro/npm-debug.log*
+frontend/astro/yarn-debug.log*
+frontend/astro/yarn-error.log*
+frontend/astro/pnpm-debug.log*
+
+
+# environment variables
+frontend/astro/.env
+frontend/astro/.env.production
+
+# macOS-specific files
+frontend/astro/.DS_Store
+
+# jetbrains setting folder
+frontend/astro/.idea/
+
+Cuentas/
